@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+
+/* globals.css */
+@keyframes moving {
+  0% {
+    width: 0%;
+    left: 0;
+    right: auto;
+  }
+  50% {
+    width: 100%;
+    left: 0;
+    right: auto;
+  }
+  100% {
+    width: 0%;
+    left: auto;
+    right: 0;
+  }
+}
+
+.animate-moving {
+  animation: moving 1s ease-in-out infinite;
+}

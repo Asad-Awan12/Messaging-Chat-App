@@ -1,0 +1,24 @@
+const expire = {
+  otp: 5,
+  user: 1440,
+  time: 1440,
+  page: 1440,
+  shop: 1440,
+  coin: 1440,
+  life: 1440,
+  event: 1440,
+  basic: 1440,
+  family: 1440,
+  contact: 1440,
+  physical: 1440,
+  avisadev: 1440,
+  identity: 1440,
+  interest: 1440,
+  helpCenter: 1440,
+  onBoarding: 1440,
+  planFeature: 1440,
+  restriction: 1440,
+  configuration: 1440,
+};
+
+export default expire;
